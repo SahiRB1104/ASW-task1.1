@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Claim Processing PoC</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Claim Processing PoC</h1>
+
+    <div id="uploader">
+      <input id="fileInput" type="file" accept=".pdf" />
+      <button id="uploadBtn">Upload</button>
+      <div id="uploadStatus"></div>
+    </div>
+
+    <div id="processPanel" style="display:none;">
+      <p>Uploaded: <span id="s3key"></span></p>
+      <button id="processBtn">Run Textract & Extract</button>
+      <div id="processStatus"></div>
+    </div>
+
+    <h2>Summary</h2>
+    <pre id="summaryArea">—</pre>
+
+    <h2>Extraction</h2>
+    <pre id="extractionArea">—</pre>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
