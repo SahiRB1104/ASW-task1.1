@@ -1,0 +1,14 @@
+# Never commit credentials
+.env
+*.env
+.env.*
+aws_credentials/
+.aws/
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE files
+.vscode/
+.idea/
