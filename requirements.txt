@@ -1,0 +1,11 @@
+flask
+boto3
+jinja2
+python-dateutil
+scikit-learn
+numpy
+requests
+REQ
+
+
+opensearch-py

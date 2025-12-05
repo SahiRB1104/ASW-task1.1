@@ -12,3 +12,7 @@ __pycache__/
 # IDE files
 .vscode/
 .idea/
+
+.venv
+
+scripts/ __pycache__
