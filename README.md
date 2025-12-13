@@ -21,7 +21,7 @@ Include an illustrative image in your project and reference it here. Place your 
 
 Then GitHub will render it in the README like this (if the file exists):
 
-![Claim Processing Flow](static/images/claim_flow.png)
+![Flowchart illustrating the automated insurance claim processing steps, including document upload to S3, text extraction using Textract, local summarization, and optional LLM-based analysis. The flowchart is set against a clean, professional background, conveying a sense of efficiency and clarity.](app\static\images\image.png)
 
 ## Quick start
 
