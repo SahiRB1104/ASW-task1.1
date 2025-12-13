@@ -47,12 +47,12 @@ Include an illustrative image in your project and reference it here.
 Place the image at:
 
 ```
-app/static/images/image.png
+app/static/images/image.svg
 ```
 
 GitHub will render it automatically if the file exists:
 
-![Flowchart illustrating the automated insurance claim processing steps, including document upload to S3, text extraction using Textract, local summarization, and optional LLM-based analysis. The flowchart is set against a clean, professional background, conveying a sense of efficiency and clarity.](app/static/images/image.png)
+![Flowchart illustrating the automated insurance claim processing steps, including document upload to S3, text extraction using Textract, local summarization, and optional LLM-based analysis.](app/static/images/image.svg)
 
 ---
 
